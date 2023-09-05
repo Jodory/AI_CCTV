@@ -128,9 +128,7 @@ def process_backup(frame, timeData):
             # cv2.imwrite(f'camera/process/{timeData}.jpg', output)
             process_backup_is_running = False
 
-
 results = []
-
 
 if __name__ == '__main__':
     # load model
